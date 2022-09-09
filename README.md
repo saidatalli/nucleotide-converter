@@ -5,7 +5,7 @@ Nucleotide converter is a simple tool for scientists and researchers to quickly 
 https://nucleotideconverter.netlify.app/
 
 
-![picture of nucleotide converter website]()
+![picture of nucleotide converter website](https://github.com/saidatalli/nucleotide-converter/blob/main/images/nucleotide-converter-website.png)
 
 ## How It's Made:
 
