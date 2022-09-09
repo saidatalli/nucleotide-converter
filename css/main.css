@@ -1,0 +1,24 @@
+/* SECTIONS */
+body {
+    padding-top: 20px;
+}
+.card {
+    border: 1px solid #19C7A9;
+}
+.btn {
+    background-color: #302A38;
+    margin: 8px 0;
+}
+.btn:hover {
+    background-color: #19C7A9;
+}
+
+/* HEADINGS */
+.main-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;   
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nucleotide Converter</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified MaterializeCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1 class="main-title">Nucleotide Converter</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+                <span class="card-title">Get Complement DNA</span>
+                <label for="dna1"></label>
+                <input id="dna1" type="text" placeholder="Enter the DNA sequence">
+                <a class="waves-effect waves-light btn" id="complementDna">Convert</a> 
+            </div>
+            <div class="card-action">
+                <p class="complementDnaContainer"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Get Reverse Complement DNA</span>
+              <label for="dna2"></label>
+              <input id="dna2" type="text" placeholder="Enter the DNA sequence">
+              <a class="waves-effect waves-light btn" id="reverseDna">Convert</a> 
+            </div>
+            <div class="card-action">
+              <p class="reverseDnaContainer"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Get mRNA</span>
+              <label for="dna3"></label>
+              <input id="dna3" type="text" placeholder="Enter the DNA sequence">
+              <a class="waves-effect waves-light btn" id="mRna">Convert</a> 
+            </div>
+            <div class="card-action">
+              <p class="mRnaContainer"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Get GC Content</span>
+              <label for="dna4"></label>
+              <input id="dna4" type="text" placeholder="Enter the nucleotide sequence">
+              <a class="waves-effect waves-light btn" id="gC">Convert</a> 
+            </div>
+            <div class="card-action">
+              <p class="gcContainer"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <small>Copyright © 2022. Nucleotide Converter. Made by Saidat Alli <a href="https://github.com/saidatalli">Visit my GitHub</a></small>
+  </footer>
+    <!-- Compiled and minified Materializecss JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
